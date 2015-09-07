@@ -1,0 +1,36 @@
+.borderless tbody tr td, .borderless thead tr th {
+  border: none;
+}
+
+.earth{
+  background-color: #EEFFEE;
+}
+
+.heaven{
+  background-color: #9AD9EA;
+}
+
+.hell{
+  background-color: #FFA66D;
+}
+
+.win-square{
+	background-image: url('../images/victory.png');
+	background-repeat: no-repeat;
+    background-position: right;
+}
+
+.ht{
+	height:100px;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+ }
