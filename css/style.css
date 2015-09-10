@@ -1,0 +1,54 @@
+ol.list-group
+{
+  list-style: decimal inside;
+}
+ol li.list-group-item
+{
+  display:list-item;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Droid Serif', serif;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #428bca;
+}
+
+#about {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#about > #left {
+  position: fixed;
+  z-index: -1;
+  padding-right: 0;
+}
+
+#about > #right {
+  padding-left: 0;
+}
+
+.next {
+  z-index: 10;
+  background-color: #fff;
+}
+
+#footer {
+  border-top: 1px solid silver;
+  padding-top: 20px;
+}
+
+.logo {
+  max-height: 75px;
+}
+
+p {
+  text-align: justify;
+}
