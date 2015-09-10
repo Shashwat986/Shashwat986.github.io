@@ -21,21 +21,26 @@ a:hover {
 }
 
 #about {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  position:relative;
+  z-index:-99;
 }
 
 #about > #left {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   position: fixed;
   z-index: -1;
   padding-right: 0;
 }
 
 #about > #right {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   padding-left: 0;
 }
 
 .next {
+  position:relative;
   z-index: 10;
   background-color: #fff;
 }
